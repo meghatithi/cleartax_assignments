@@ -20,13 +20,39 @@ json to expression and evaluate
 
 
 * Free software: MIT license
-* Documentation: https://cleartax-assignments.readthedocs.io.
 
 
-Features
---------
 
-* TODO
+Installation
+------------
+
+Install project with pip:
+
+    $ pip install -e <folder_path>
+
+
+	
+Running
+-------
+
+* Initialise 'JsonToExpression' class with json data as dictionary
+* 'to_string' to pretty print the expression
+* 'change_sides' so x is on the left of the expression
+* 'evaluate_eq' to solve the expression
+
+
+
+Testing
+-------   
+
+Test using pytest.
+
+	$ pytest
+
+
+If pytest is not installed, install using pip.
+
+	$ pip install pytest
 
 Credits
 -------
